@@ -43,7 +43,7 @@ ul {
 
 li {
 	color: #fff;
-  background: #6601C6;
+    	background-color: #4B0082;
 	display: block;
 	float: left;
 	position: relative;
@@ -99,18 +99,18 @@ ul li ul li {
 }
 .middle-box{
 	height: 100%;
-	width: 50%;
+	width: 80%;
 	background-color: #E4CBF2;
 	display: flex;
 }
 .left-box{
 	height: 100%;
-	width: 50%;
+	width: 55%;
 	padding:20px;
 }
 .right-box{
 	height: 100%;
-	width: 10%;
+	width: 20%;
 	background-color: #E4CBF2;
 	display: flex;
 }
@@ -189,13 +189,19 @@ ul li ul li {
 	background-color: #D3B9F7;
 }
 .groups{
-	height: 100%;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 93%;
 	width: 40%;
 	display:block;
 	background-color: #E4CBF2;
 }
 .images{
-	height: 100%;
+	padding-top: 40px;
+	padding-left:10px;
+	padding-right:10px;
+	height: 90%;
 	width: 60%;
 	display:block;
 	background-color: #AF98B0;
@@ -205,6 +211,7 @@ ul li ul li {
 	max-width: 80%;
 	cursor: pointer;
 }
+
 h2{
     text-align:center;
 	 Impact, Charcoal, sans-serif;
