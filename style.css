@@ -3,7 +3,8 @@ html, body {
 	width: 100vw;
 	margin: 0;
 	overflow-x:hidden;
-	font-family: Alegreya Sans SC;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+
 }
 .top{
 	height: 8%;
@@ -56,7 +57,7 @@ li {
 li a {
   color: #fff;
     font-size: 17px;
-  font-family: Impact, Charcoal, sans-serif;
+  font-family:  "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
 li:hover {
@@ -87,32 +88,29 @@ ul li ul li {
 	clear: both;
   width: 100%;
 }
+.grow:hover{
+transform: scale(1.2);
+}
 .first-row{
 	height: 100%;
 	width: 100%;
 	display:flex;
 }
 .second-row{
-	height: 20%;
+	height: 30%;
 	width: 100%;
 	display: flex;
+	background-color: #E4CBF2;
 }
 .middle-box{
 	height: 100%;
-	width: 80%;
+	width: 70%;
 	background-color: #E4CBF2;
 	display: flex;
 }
 .left-box{
 	height: 100%;
-	width: 55%;
-	padding:20px;
-}
-.right-box{
-	height: 100%;
-	width: 20%;
-	background-color: #E4CBF2;
-	display: flex;
+	width: 35%;
 }
 .divider{
 	height: 0.35%;
@@ -156,12 +154,16 @@ ul li ul li {
 	overflow:hidden;
 }
 .restrict-img-size {
-	max-height: 95%;
-	max-width: 95%;
+	max-height: 100%;
+	max-width: 100%;
 }
-.restrict-image-size {
+.restrict-size {
 	max-height: 100%;
 	max-width: 50%;
+}
+.img-size {
+	max-height: 100%;
+	max-width: 100%;
 }
 .center-content {
 	align-items: center;
@@ -190,8 +192,8 @@ ul li ul li {
 }
 .groups{
 	padding-top: 25px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	height: 93%;
 	width: 40%;
 	display:block;
@@ -199,8 +201,8 @@ ul li ul li {
 }
 .images{
 	padding-top: 40px;
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:20px;
+	padding-right:20px;
 	height: 90%;
 	width: 60%;
 	display:block;
@@ -214,18 +216,17 @@ ul li ul li {
 
 h2{
     text-align:center;
-	 Impact, Charcoal, sans-serif;
+	font-family: Impact, Charcoal, sans-serif;
 	font-size: 30px;
 	color: black;
-    word-spacing: 5px;
+    word-spacing: 10px;
 	margin: 0;
 }
 h3{
     text-align:center;
-	 Impact, Charcoal, sans-serif;
-	font-size: 25px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	font-size: 12px;
 	color: black;
-    word-spacing: 5px;
 	margin: 0;
 }
 h1{
@@ -233,13 +234,13 @@ h1{
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 0px;
 	color:black;
-    word-spacing: 5px;
+    word-spacing: 10px;
 	margin: 0;
 	font-style: italic;
 }
 p{
 	text-align:center;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 	font-size: 15px;
 	color: black;
     word-spacing: 5px;
